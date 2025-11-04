@@ -1,0 +1,9 @@
+{
+  "name": "Student Management",
+  "version": "1.0.0",
+  "description": "Module for managing student information and enrollment",
+  "enabled": true,
+  "basePath": "/api/students",
+  "dependencies": [],
+  "permissions": ["student.view", "student.create", "student.update", "student.delete"]
+}
