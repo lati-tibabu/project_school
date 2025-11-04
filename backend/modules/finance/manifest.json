@@ -1,0 +1,9 @@
+{
+  "name": "Finance Management",
+  "version": "1.0.0",
+  "description": "Module for managing fees, payments, and financial transactions",
+  "enabled": true,
+  "basePath": "/api/finance",
+  "dependencies": ["student"],
+  "permissions": ["finance.view", "finance.create", "finance.update", "finance.delete"]
+}

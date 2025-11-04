@@ -1,0 +1,9 @@
+{
+  "name": "Teacher Management",
+  "version": "1.0.0",
+  "description": "Module for managing teacher information and assignments",
+  "enabled": true,
+  "basePath": "/api/teachers",
+  "dependencies": [],
+  "permissions": ["teacher.view", "teacher.create", "teacher.update", "teacher.delete"]
+}

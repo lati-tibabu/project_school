@@ -1,0 +1,9 @@
+{
+  "name": "Attendance Management",
+  "version": "1.0.0",
+  "description": "Module for tracking student and teacher attendance",
+  "enabled": true,
+  "basePath": "/api/attendance",
+  "dependencies": ["student", "teacher"],
+  "permissions": ["attendance.view", "attendance.create", "attendance.update", "attendance.delete"]
+}
